@@ -10,11 +10,5 @@ export default defineConfig({
     tailwindcss()
 
   ],
-  build: {
-    outDir: 'dist', // Ensure output directory is correctly set
-    sourcemap: true, // Optional: enables sourcemaps for debugging
-    commonjsOptions: {
-      exclude: ['some-problematic-package'], // Optional: exclude problematic packages
-    },
-  },
+  
 })
