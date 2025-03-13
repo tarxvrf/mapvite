@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import MyDatePicker from "../UIcomponents/DatePicker";
-import MyDateRange from "../UIcomponents/RangeDatePicker";
-import Swal from "sweetalert2";
 import Frame from "../UIcomponents/Frame";
 
 export default function Report() {
