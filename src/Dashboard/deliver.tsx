@@ -1,4 +1,4 @@
-import React from "react";
+
 import Frame from "../UIcomponents/Frame";
 
 function Deliver() {

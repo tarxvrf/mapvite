@@ -1,5 +1,4 @@
 
-import React from "react";
 import { FaBox, FaHome, FaUserAlt } from "react-icons/fa";
 
 import { GrDeliver } from "react-icons/gr";
