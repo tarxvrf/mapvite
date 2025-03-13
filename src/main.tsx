@@ -4,16 +4,15 @@ import './styles/index.css'
 //import App from './App.tsx'
 import 'leaflet/dist/leaflet.css';
 //import Dashboard from './Dashboard.tsx';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+//import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import AppRouter from './Approuter.tsx';
 import { StrictMode } from 'react';
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
-        <QueryClientProvider client={new QueryClient}>
-            <div className='min-h-screen bg-black p-4'>
+        
+          
                 <AppRouter />
-            </div>
-        </QueryClientProvider>
+            
     </StrictMode>
 )
