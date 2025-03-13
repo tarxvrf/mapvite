@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from './UIcomponents/Header';
-import Menu from './UIcomponents/Menu';
+import Header from './Header';
+import Menu from './Menu';
 
 interface FrameProps {
     children: React.ReactNode;

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { MdOutlineDescription, MdOutlineSubtitles } from "react-icons/md";
 import { toast, ToastContainer } from "react-toastify";
+import Frame from "../UIcomponents/Frame";
 
 function Sales() {
   const [user, setuser] = useState('')
@@ -33,6 +34,7 @@ function Sales() {
   };
 
   return (
+    <Frame>
     <div className=" bg-transparent ml-32 pt-20 px-5">
     <div className="flex justify-center mt-[10%] ">
       <div className="card sm:w-8/12 h-[500px] max-w-sm border">
@@ -62,6 +64,7 @@ function Sales() {
       </div>
     </div>
     </div>
+    </Frame>
   );
 }
 

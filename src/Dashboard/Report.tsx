@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import MyDatePicker from "../UIcomponents/DatePicker";
 import MyDateRange from "../UIcomponents/RangeDatePicker";
 import Swal from "sweetalert2";
+import Frame from "../UIcomponents/Frame";
 
 export default function Report() {
 const [allproduk, setallproduk] = useState<[]>([]);
@@ -26,6 +27,7 @@ const formatCurrency = (value: number) => {
   }
 
   return (
+    <Frame>
     <div className=" bg-transparent ml-32 pt-20 px-5">
       <div className="flex flex-row max-w-lg gap-10 items-center">
       <div className="">
@@ -77,5 +79,6 @@ const formatCurrency = (value: number) => {
       
       <div></div>
     </div>
+    </Frame>
   );
 }

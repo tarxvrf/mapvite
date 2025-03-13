@@ -1,7 +1,9 @@
 import React from "react";
+import Frame from "../UIcomponents/Frame";
 
 function Deliver() {
   return (
+    <Frame>
     <div className="flex justify-center mt-[10%]">
       <ul className="steps">
         <li className="step step-info">Fly to moon</li>
@@ -12,6 +14,7 @@ function Deliver() {
         </li>
       </ul>
     </div>
+    </Frame>
   );
 }
 

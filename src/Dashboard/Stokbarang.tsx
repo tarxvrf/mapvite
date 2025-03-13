@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import Swal from "sweetalert2";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import Frame from "../UIcomponents/Frame";
 
 interface Product {
   nama: string;
@@ -241,6 +242,7 @@ export default function Stokbarang() {
   };
 
   return (
+  <Frame>
     <div className=" bg-transparent ml-32 pt-20 px-5">
       <div className="flex flex-row max-w-lg gap-10 items-center">
         <div></div>
@@ -415,5 +417,6 @@ export default function Stokbarang() {
         </dialog>
       </div>
     </div>
+    </Frame>
   );
 }

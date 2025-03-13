@@ -17,7 +17,7 @@ function Menu() {
       <div>
         <ul className="flex flex-col gap-16">
           <li className="flex flex-col btn btn-ghost  py-2 ">
-            <a href="/">
+            <a href="/dashboard">
               <FaHome className=" text-4xl" />
               Home
             </a>
