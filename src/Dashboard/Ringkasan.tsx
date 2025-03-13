@@ -1,10 +1,10 @@
 import React from "react";
-import Frame from "../UIcomponents/Frame";
+//import Frame from "../UIcomponents/Frame";
 
 
 function Ringkasan() {
   return (
-    <Frame>
+   
    <div className=" bg-transparent ml-32 pt-20 px-5">
     <div className="flex flex-col w-64 items-center gap-10">
       <div role="button" className="card w-64 border">
@@ -27,7 +27,7 @@ function Ringkasan() {
       </div>
     </div>
     </div>
-    </Frame>
+   
   );
 }
 

@@ -8,14 +8,12 @@ import CustomMap from './Map';
 
 const AppRouter = () => {
  
-  return (
-    
+  return (    
     <Router>
       <Routes>  
         <Route path="/" element={<CustomMap/>} />
         <Route path="/dashboard/report" element={<Report />} />
-        <Route path="/dashboard/stokbarang" element={<Stokbarang />} />
-        
+        <Route path="/dashboard/stokbarang" element={<Stokbarang />} />        
         <Route path="/dashboard/sales" element={<Sales />} />
         <Route path="/dashboard/" element={<Ringkasan />} />
       </Routes>
